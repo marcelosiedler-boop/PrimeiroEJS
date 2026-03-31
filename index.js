@@ -33,7 +33,7 @@ app.get("/bermuda/:prod", (req, res) => {
     preco = "R$ 70,00"
     tamanhos = "P M G"
   }
-  res.render("bermudadetalhe", {nome,preco,tamanho});
+  res.render("bermudadetalhe", {nome,preco,tamanhos});
 });
 
 
