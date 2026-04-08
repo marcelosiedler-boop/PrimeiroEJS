@@ -1,24 +1,4 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-    @import url('https://fonts.cdnfonts.com/css/old-london');
-    body {
-         font-family: 'Old London', sans-serif;
-    }
-    </style>
-</head>
-<body>
-    <h1>Site de roupas</h1>
-    <header>
-        <nav>
-            <a href="/camisa">Camisas</a>
-            <a href="/bermuda">Bermudas</a>
-            <a href="Meias">Meias</a>
-        </nav>
-    </header>
+<%- include('cabecalho.ejs')%>
     <h1>Camisas</h1>
     <div>
         Polo Branca - R$30,00 
@@ -28,5 +8,4 @@
         Polo Preta - R$40,00 
         <a href="/camisa/poloP">Ver +</a>
     </div>
-</body>
-</html>
+    <%- include('rodape.ejs')%>

@@ -1,33 +1,13 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-    @import url('https://fonts.cdnfonts.com/css/old-london');
-    body {
-         font-family: 'Old London', sans-serif;
-    }
-    </style>
-</head>
-<body>
-    <h1>Site de roupas</h1>
-    <header>
-        <nav>
-            <a href="/camisa">Camisas</a>
-            <a href="/bermuda">Bermudas</a>
-            <a href="Meias">Meias</a>
-        </nav>
-    </header>
+<%- include('cabecalho.ejs')%>
     <h1>Bermuda XXXXX</h1>
     <div>
-        Nome:<br>
-        Preço:<br>
-        Tamanhos:<br>
+        Nome:<%=nome%><br>
+        Preço:<%=preco%><br>
+        Tamanhos:<%=tamanhos%><br>
     </div>
     <div>
         Bermuda da Barbie - R$70,00 
         <a href="/camisa/barbie">Ver +</a>
     </div>
-</body>
-</html>
+
+    <%- include('rodape.ejs')%>
